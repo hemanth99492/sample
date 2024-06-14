@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari & Swathi's Wedding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hari & Swathi's Wedding</h1>
+        <p>Join us in celebrating our love on July 15, 2024</p>
+    </header>
+
+    <section id="bride-groom">
+        <h2>Bride & Groom</h2>
+        <div class="profile">
+            <img src="bride.jpg" alt="Swathi">
+            <h3>Swathi</h3>
+            <p>Swathi is a talented graphic designer known for her creativity and keen eye for detail. She has a passion for art and design, often finding inspiration in the beauty of everyday life. Swathi enjoys bringing ideas to life through her artistic skills, whether it's through digital media or traditional painting. Outside of her creative pursuits, Swathi loves to read, cook, and spend time with her family and friends. Her warmth, generosity, and artistic spirit make her a joy to be around. Swathi is thrilled to start this new journey with Hari, celebrating their love and commitment with those who matter most.</p>
+        </div>
+        <div class="profile">
+            <img src="groom.jpg" alt="Hari">
+            <h3>Hari</h3>
+            <p>Hari is an accomplished software engineer with a passion for technology and innovation. He has a knack for solving complex problems and enjoys working on cutting-edge projects. Outside of his professional life, Hari is an avid traveler who loves exploring new cultures and cuisines. His kind heart and adventurous spirit make him a wonderful partner and an exciting person to be around. Hari is eagerly looking forward to beginning this new chapter of his life with Swathi, surrounded by their loved ones..</p>
+        </div>
+    </section>
+
+    <section id="location">
+        <h2>Location</h2>
+        <p>The Grand Wedding Hall, 2nd-lane, Vijayawada, india</p>
+        <div id="map">
+            <!-- Embed Google Map here -->
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-item"><img src="gallery1.jpg" alt="Gallery Photo 1"></div>
+        <div class="gallery-item"><img src="gallery2.jpg" alt="Gallery Photo 2"></div>
+        <div class="gallery-item"><img src="gallery3.jpg" alt="Gallery Photo 3"></div>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="attendance">Will you attend?</label>
+            <select id="attendance" name="attendance" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us: <a href="mailto:support@example.com">support@example.com</a></p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>

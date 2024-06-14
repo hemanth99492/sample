@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #e4d6a7;
+    color: #5b3924;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#bride-groom {
+    background-color: #fff;
+}
+
+#bride-groom .profile {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+#bride-groom .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#location {
+    background-color: #e4d6a7;
+}
+
+#gallery {
+    background-color: #fff;
+}
+
+#gallery .gallery-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+#gallery .gallery-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#rsvp {
+    background-color: #e4d6a7;
+}
+
+#rsvp form {
+    display: inline-block;
+    text-align: left;
+}
+
+#rsvp label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#rsvp input,
+#rsvp select,
+#rsvp button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #5b3924;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #e4d6a7;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
